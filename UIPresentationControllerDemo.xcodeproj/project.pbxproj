@@ -14,6 +14,7 @@
 		6F11E8441A9CA5340059D768 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F11E8431A9CA5340059D768 /* Images.xcassets */; };
 		6F11E8471A9CA5340059D768 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F11E8451A9CA5340059D768 /* LaunchScreen.xib */; };
 		6F11E8531A9CA5340059D768 /* UIPresentationControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F11E8521A9CA5340059D768 /* UIPresentationControllerDemoTests.m */; };
+		6F11E85E1A9CB8FF0059D768 /* ContainerViewBLETable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F11E85D1A9CB8FF0059D768 /* ContainerViewBLETable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6F11E84C1A9CA5340059D768 /* UIPresentationControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPresentationControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F11E8511A9CA5340059D768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F11E8521A9CA5340059D768 /* UIPresentationControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPresentationControllerDemoTests.m; sourceTree = "<group>"; };
+		6F11E85C1A9CB8FF0059D768 /* ContainerViewBLETable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewBLETable.h; sourceTree = "<group>"; };
+		6F11E85D1A9CB8FF0059D768 /* ContainerViewBLETable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewBLETable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				6F11E83B1A9CA5340059D768 /* AppDelegate.m */,
 				6F11E83D1A9CA5340059D768 /* ViewController.h */,
 				6F11E83E1A9CA5340059D768 /* ViewController.m */,
+				6F11E85C1A9CB8FF0059D768 /* ContainerViewBLETable.h */,
+				6F11E85D1A9CB8FF0059D768 /* ContainerViewBLETable.m */,
 				6F11E8401A9CA5340059D768 /* Main.storyboard */,
 				6F11E8431A9CA5340059D768 /* Images.xcassets */,
 				6F11E8451A9CA5340059D768 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				6F11E83F1A9CA5340059D768 /* ViewController.m in Sources */,
 				6F11E83C1A9CA5340059D768 /* AppDelegate.m in Sources */,
 				6F11E8391A9CA5340059D768 /* main.m in Sources */,
+				6F11E85E1A9CB8FF0059D768 /* ContainerViewBLETable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				6F11E8581A9CA5340059D768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F11E8591A9CA5340059D768 /* Build configuration list for PBXNativeTarget "UIPresentationControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				6F11E85B1A9CA5340059D768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

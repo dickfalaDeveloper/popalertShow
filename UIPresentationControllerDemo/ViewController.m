@@ -7,21 +7,46 @@
 //
 
 #import "ViewController.h"
+#import "ContainerViewBLETable.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.presentingViewController dismissViewControllerAnimated:NO completion:nil];
+}
+
+- (IBAction)btnAction:(id)sender {
+//    _containerView.hidden = NO;
+    [self.presentingViewController dismissViewControllerAnimated:NO completion:nil];
+    
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if( [segue.identifier isEqualToString:@"alertSegue"])
+    {
+        ContainerViewBLETable *vc = segue.destinationViewController;
+        vc.delegate = self;
+    }
+}
+
+-(void) ContainerViewBLETable:(ContainerViewBLETable *)vc andSelectedDone:(NSString *)selectedStr
+{
+//    self.lb.text = selectedStr;
+//    vc.view.hidden = YES;
+}
+
+-(IBAction)unwindSegue:(UIStoryboardSegue *)segue
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 @end
